@@ -1,0 +1,172 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+nav{
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    height: 80px;
+    background-color: #2b2b2b;
+}
+
+.nav-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.brand{
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    color: white;
+    margin-left: 40px;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active{
+    font-weight: 700;
+}
+
+.section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.card-wrapper{
+    width: 100%;
+    border: 2px solid #00000020;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.teammate-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #2b2b2b;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.john{
+    background-image: url("/assets/John.jpg");
+}
+
+.jane{
+    background-image: url("/assets/Jane.jpg");
+}
+
+.susan{
+    background-image: url("/assets/Susan.jpg");
+}
+
+.card-wrapper h4{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.button{
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #00000020;
+    color: #2b2b2b;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.add-teammate{
+    margin: 0 auto;
+    width: 60px;
+    margin-top: 45px;
+}
+
+.form-in{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: #c2c2c2;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    background-color: #c2c2c2;
+    border: 0;
+    height: 122px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.remove-teammate{
+    background-color: #00000070;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding-top: 40px;
+    opacity: 0;
+}
+
+.remove-teammate:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.remove-hover{
+    width: 60px;
+    margin: 0 auto;
+    
+}
+
+.footer{
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-style: italic;
+}
